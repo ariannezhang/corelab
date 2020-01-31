@@ -1,3 +1,3 @@
 # Arianne-Zhang
 
-<a href="homepage/index.html">Visit our HTML tutorial</a>
+<a href="homepage/index.html">HOMEPAGE</a>
