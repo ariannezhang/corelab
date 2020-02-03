@@ -201,6 +201,45 @@ body {
   position: absolute;
 }
 
+.studioprojectone {
+  /* color: snow; */
+  /* left: 2200px; */
+  top: 1800px;
+  font-size: 25px;
+  font-family: "Helvetica", sans-serif;
+  position: absolute;
+  z-index: 20;
+}
+.studioprojectoneagain {
+  /* color: snow; */
+  /* left: 2200px; */
+  top: 1900px;
+  font-size: 25px;
+  font-family: "Helvetica", sans-serif;
+  position: absolute;
+  z-index: 20;
+}
+
+.studioprojectoneagainn {
+  /* color: snow; */
+  /* left: 2200px; */
+  top: 2000px;
+  font-size: 25px;
+  font-family: "Helvetica", sans-serif;
+  position: absolute;
+  z-index: 20;
+}
+
+.fifteenminute {
+  /* color: snow; */
+  /* left: 2200px; */
+  top: 2100px;
+  font-size: 25px;
+  font-family: "Helvetica", sans-serif;
+  position: absolute;
+  z-index: 20;
+}
+
 .greenbottle {
   z-index: -5;
   height: 700px;
