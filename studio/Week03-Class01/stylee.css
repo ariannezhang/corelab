@@ -1,0 +1,39 @@
+body {
+  color: white;
+  background-color: black;
+  margin-top: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.lol {
+  font-size: 10px;
+  text-align: left;
+}
+.tissue {
+  color: black;
+  background-color: white;
+  /* padding-left: 350px; */
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.haha {
+  margin: auto;
+  padding: 400px;
+  background-image: url("teletubbies.jpg");
+}
+.begin {
+  /* width: 40px;
+  height: 40px; */
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 60px 30px #fff, /* inner white */ 0 0 100px 60px #f0f,
+    /* middle magenta */ 0 0 140px 90px #0ff; /* outer cyan */
+  color: black;
+  text-align: center;
+  padding: 150px;
+  font-size: 10px;
+  text-transform: uppercase;
+}

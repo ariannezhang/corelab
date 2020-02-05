@@ -1,0 +1,491 @@
+body {
+  background-color: black;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 247, 167);
+  top: 400px;
+  left: 100px;
+  position: absolute;
+}
+
+.two {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(9, 247, 167);
+  top: 500px;
+  left: 500px;
+  position: absolute;
+}
+
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(11, 156, 253);
+  top: 300px;
+  left: 500px;
+  position: absolute;
+}
+
+.four {
+  width: 600px;
+  height: 100px;
+  background-color: rgb(204, 43, 182);
+  top: 450px;
+  left: 300px;
+  position: absolute;
+}
+
+.five {
+  width: 50px;
+  height: 600px;
+  background-color: rgb(140, 236, 13);
+  top: 450px;
+  left: 100px;
+  position: absolute;
+}
+.six {
+  width: 50px;
+  height: 600px;
+  background-color: rgb(140, 236, 13);
+  top: 500px;
+  left: 200px;
+  position: absolute;
+}
+
+.seven {
+  width: 200px;
+  height: 400px;
+  background-color: rgb(3, 27, 240);
+  top: 200px;
+  left: 800px;
+  position: absolute;
+}
+
+.eight {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  top: 700px;
+  left: 300px;
+  position: absolute;
+}
+.nine {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 5px;
+  left: 0px;
+  position: absolute;
+}
+.ten {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 15px;
+  left: 0px;
+  position: absolute;
+}
+.eleven {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 25px;
+  left: 0px;
+  position: absolute;
+}
+.twelve {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 35px;
+  left: 0px;
+  position: absolute;
+}
+.thirteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 45px;
+  left: 0px;
+  position: absolute;
+}
+.fourteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 55px;
+  left: 0px;
+  position: absolute;
+}
+.fifteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 65px;
+  left: 0px;
+  position: absolute;
+}
+.sixteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 75px;
+  left: 0px;
+  position: absolute;
+}
+.seventeen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 85px;
+  left: 0px;
+  position: absolute;
+}
+.eighteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 95px;
+  left: 0px;
+  position: absolute;
+}
+.nineteen {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 105px;
+  left: 0px;
+  position: absolute;
+}
+.twenty {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 115px;
+  left: 0px;
+  position: absolute;
+}
+.twentyone {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 125px;
+  left: 0px;
+  position: absolute;
+}
+.twentytwo {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 135px;
+  left: 0px;
+  position: absolute;
+}
+.twentythree {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 145px;
+  left: 0px;
+  position: absolute;
+}
+.twentyfour {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 155px;
+  left: 0px;
+  position: absolute;
+}
+.twentyfive {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 165px;
+  left: 0px;
+  position: absolute;
+}
+.twentysix {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 175px;
+  left: 0px;
+  position: absolute;
+}
+.twentyseven {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 185px;
+  left: 0px;
+  position: absolute;
+}
+.twentyeight {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 195px;
+  left: 0px;
+  position: absolute;
+}
+.twentynine {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 205px;
+  left: 0px;
+  position: absolute;
+}
+.thirty {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 215px;
+  left: 0px;
+  position: absolute;
+}
+.thirtyone {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 225px;
+  left: 0px;
+  position: absolute;
+}
+.thirtytwo {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 235px;
+  left: 0px;
+  position: absolute;
+}
+.thirtythree {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 245px;
+  left: 0px;
+  position: absolute;
+}
+.thirtyfour {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 255px;
+  left: 0px;
+  position: absolute;
+}
+.thirtyfive {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 265px;
+  left: 0px;
+  position: absolute;
+}
+.thirtysix {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 275px;
+  left: 0px;
+  position: absolute;
+}
+.thirtyseven {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 285px;
+  left: 0px;
+  position: absolute;
+}
+.thirtyeight {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 295px;
+  left: 0px;
+  position: absolute;
+}
+.thirtynine {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 305px;
+  left: 0px;
+  position: absolute;
+}
+.fourty {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 315px;
+  left: 0px;
+  position: absolute;
+}
+
+.fourtyone {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 325px;
+  left: 0px;
+  position: absolute;
+}
+.fourtytwo {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 335px;
+  left: 0px;
+  position: absolute;
+}
+.fourtythree {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 345px;
+  left: 0px;
+  position: absolute;
+}
+.fourtyfour {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 355px;
+  left: 0px;
+  position: absolute;
+}
+.fourtyfive {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 365px;
+  left: 0px;
+  position: absolute;
+}
+.fourtysix {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 375px;
+  left: 0px;
+  position: absolute;
+}
+.fourtyseven {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 385px;
+  left: 0px;
+  position: absolute;
+}
+.fourtyeight {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 395px;
+  left: 0px;
+  position: absolute;
+}
+.fourtynine {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 405px;
+  left: 0px;
+  position: absolute;
+}
+.fifty {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 415px;
+  left: 0px;
+  position: absolute;
+}
+.fiftyone {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 425px;
+  left: 0px;
+  position: absolute;
+}
+.fiftytwo {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 435px;
+  left: 0px;
+  position: absolute;
+}
+.fiftythree {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 445px;
+  left: 0px;
+  position: absolute;
+}
+.fiftyfour {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 455px;
+  left: 0px;
+  position: absolute;
+}
+.fiftyfive {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 465px;
+  left: 0px;
+  position: absolute;
+}
+.fiftysix {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 475px;
+  left: 0px;
+  position: absolute;
+}
+.fiftyseven {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 485px;
+  left: 0px;
+  position: absolute;
+}
+.fiftyeight {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 495px;
+  left: 0px;
+  position: absolute;
+}
+.fiftynine {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 505px;
+  left: 0px;
+  position: absolute;
+}
+.sixty {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  top: 515px;
+  left: 0px;
+  position: absolute;
+}
