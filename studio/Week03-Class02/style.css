@@ -1,0 +1,290 @@
+body {
+  color: white;
+  background-image: url(glitch.gif);
+  margin-top: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.lol {
+  font-size: 100px;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  /* background-color: black; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav-links {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.container {
+  background-color: black;
+  width: 70%;
+  height: 70%;
+  opacity: 70%;
+  margin-left: 100px;
+}
+/* .tissue {
+  color: white; */
+/* background-color: white; */
+/* padding-left: 350px; */
+/* text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+} */
+
+.haha {
+  margin: auto;
+  padding: 400px;
+  background-image: url("teletubbies.jpg");
+}
+.begin {
+  /* width: 40px;
+    height: 40px; */
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 60px 30px #fff, /* inner white */ 0 0 100px 60px #f0f,
+    /* middle magenta */ 0 0 140px 90px rgb(8, 119, 122); /* outer cyan */
+  color: black;
+  text-align: center;
+  padding: 150px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.one {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(64, 233, 64);
+  font-style: oblique;
+}
+.two {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(143, 82, 241);
+  font-style: oblique;
+}
+.three {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+.four {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+
+.five {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(253, 43, 190);
+  font-style: oblique;
+}
+.six {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(84, 8, 226);
+  font-style: oblique;
+}
+.seven {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(72, 152, 255);
+  font-style: oblique;
+}
+.eight {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(64, 233, 64);
+  font-style: oblique;
+}
+.nine {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(143, 82, 241);
+  font-style: oblique;
+}
+.ten {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+.eleven {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+
+.twelve {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(253, 43, 190);
+  font-style: oblique;
+}
+.thirteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(84, 8, 226);
+  font-style: oblique;
+}
+.fourteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(72, 152, 255);
+  font-style: oblique;
+}
+.fifteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(64, 233, 64);
+  font-style: oblique;
+}
+.sixteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(143, 82, 241);
+  font-style: oblique;
+}
+.seventeen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+.eighteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+
+.nineteen {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(253, 43, 190);
+  font-style: oblique;
+}
+.twenty {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(84, 8, 226);
+  font-style: oblique;
+}
+.twentyone {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(72, 152, 255);
+  font-style: oblique;
+}
+.twentytwo {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(64, 233, 64);
+  font-style: oblique;
+}
+.twentythree {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(143, 82, 241);
+  font-style: oblique;
+}
+.twentyfour {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+.twentyfive {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+
+.twentysix {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(253, 43, 190);
+  font-style: oblique;
+}
+.twentyseven {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(84, 8, 226);
+  font-style: oblique;
+}
+.twentyeight {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(72, 152, 255);
+  font-style: oblique;
+}
+.twentynine {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(64, 233, 64);
+  font-style: oblique;
+}
+.thirty {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(143, 82, 241);
+  font-style: oblique;
+}
+.thirtyone {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+.thirtytwo {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(103, 245, 226);
+  font-style: oblique;
+}
+
+.thirtythree {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(253, 43, 190);
+  font-style: oblique;
+}
+.thirtyfour {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(84, 8, 226);
+  font-style: oblique;
+}
+#thirtyfive {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 10px rgb(72, 152, 255);
+  font-style: oblique;
+}

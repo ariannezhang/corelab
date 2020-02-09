@@ -1,0 +1,46 @@
+body {
+  color: rgb(250, 250, 250);
+  background-color: rgb(5, 5, 5);
+  margin-top: auto;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  letter-spacing: 20px;
+  background-image: url(blacknwhite.gif);
+  /* background-repeat: space; */
+  /* background-repeat: round; */
+  background-size: cover;
+}
+.lol {
+  font-size: 10px;
+  text-align: left;
+}
+.tissue {
+  color: white;
+  /* background-color: white; */
+  /* padding-left: 350px; */
+  text-align: right;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.haha {
+  margin: auto;
+  padding: 400px;
+  color: black;
+}
+.haha:hover {
+  margin: auto;
+  padding: 400px;
+  color: red;
+}
+.begin {
+  /* width: 40px;
+    height: 40px; */
+
+  color: rgb(250, 9, 9);
+  text-align: center;
+  padding: 150px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
