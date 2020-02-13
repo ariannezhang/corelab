@@ -57,7 +57,9 @@ nav {
 .haha {
   margin: auto;
   padding: 400px;
-  background-image: url("teletubbies.jpg");
+  /* background-image: url("teletubbies.jpg"); */
+  font-size: 50px;
+  font-style: oblique;
 }
 .begin {
   /* width: 40px;

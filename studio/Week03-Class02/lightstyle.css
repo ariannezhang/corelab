@@ -47,34 +47,34 @@ body {
 }
 @keyframes example {
   0% {
-    background-color: rgb(142, 241, 208);
+    background-color: rgb(126, 15, 170);
     transform: scale(1, 1);
   }
   25% {
-    background-color: rgb(32, 130, 241);
+    background-color: rgb(160, 26, 212);
     transform: scale(0.67, 0.67);
   }
   50% {
-    background-color: rgb(145, 54, 231);
+    background-color: rgb(236, 142, 232);
     transform: scale(0.33, 0.33);
   }
   100% {
-    background-color: rgb(247, 101, 181);
+    background-color: rgb(250, 187, 250);
     transform: scale(0.1, 0.1);
   }
 }
 @keyframes lalala {
   0% {
-    background-color: rgb(161, 250, 220);
+    background-color: rgb(2, 116, 2);
   }
   25% {
-    background-color: rgb(121, 173, 233);
+    background-color: rgb(39, 189, 9);
   }
   50% {
-    background-color: rgb(192, 140, 240);
+    background-color: rgb(231, 134, 235);
   }
   100% {
-    background-color: rgb(241, 132, 192);
+    background-color: rgb(145, 228, 135);
   }
 }
 .circletwo {
@@ -112,7 +112,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 800px;
-  top: 6950px;
+  top: 6600px;
   opacity: 40%;
   animation-name: example;
   animation-duration: 7s;
@@ -126,27 +126,27 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 100px;
-  top: 9050px;
+  top: 6900px;
   opacity: 40%;
   animation-name: example;
   animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.circlesix {
+/* .circlesix {
   background-color: beige;
   width: 400px;
   height: 400px;
   border-radius: 50%;
   position: absolute;
   left: 800px;
-  top: 11350px;
+  top: 950px;
   opacity: 40%;
   animation-name: example;
   animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+} */
 .circleseven {
   background-color: beige;
   width: 400px;
@@ -154,7 +154,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 800px;
-  top: 13350px;
+  top: 10100px;
   opacity: 40%;
   animation-name: example;
   animation-duration: 7s;
@@ -165,6 +165,6 @@ body {
   width: 100%;
   height: 5px;
   position: absolute;
-  top: 15350px;
+  top: 11350px;
   background-color: white;
 }
