@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Starter Code</title>
+    <style>
+      /* you can write styles for the button! Try your own */
+      button {
+        padding: 5px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        background-color: transparent;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">this item 1 will be manipulated and replaced</div>
+      <div class="item">this item 2 will be manipulated and replaced</div>
+      <div class="item">this item 3 will be manipulated and replaced</div>
+      <div class="item">this item 4 will be manipulated and replaced</div>
+      <div class="item">this item 5 will be manipulated and replaced</div>
+      <div class="item">this item 6 will be manipulated and replaced</div>
+      <div class="item">this item 7 will be manipulated and replaced</div>
+      <div class="item">this item 8 will be manipulated and replaced</div>
+    </div>
+    <!-- <div class="container">
+      <div class="item">
+        <img
+          src="raveposters/1.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/2.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/3.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/4.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/5.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/6.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/7.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+      <div class="item">
+        <img
+          src="raveposters/8.jpg"
+          alt="This will display an jpg"
+          style="width:300px;height:300px;"
+        />
+      </div>
+    </div> -->
+    <!-- <button onClick="handleClick()">Click me!</button> -->
+
+    <!-- script tag at the end of the body -->
+    <script>
+      var items = document.querySelectorAll(".container");
+      items.forEach((item, i) => {
+        var randomGenerator = Math.round(Math.random() * 8);
+        item.innerHTML = `<img src="raveposters/${randomGenerator}.jpg" class="image"/>`;
+      });
+      function handleClick() {
+        console.log("this function runs every time you click the button");
+        // Take a look at index-comments.html and index-final.html to get ideas for how you can generate and manipulate content on the screen when this function runs
+        // what if we randomized the images on the screen every time we clicked the button? How would we have to change our in-class code?
+        // Try to do additional things inside here too. Learn how to use style in JavaScript to change colors, typography, etc.
+      }
+    </script>
+  </body>
+</html>
