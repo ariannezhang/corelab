@@ -22,7 +22,7 @@ body {
   /* transform-origin: center; */
 }
 
-/* .albumcovers {
+.albumcovers {
   position: absolute;
   left: 500px;
   top: 200px;
@@ -37,7 +37,7 @@ body {
   transform-origin: center;
   animation: crescendo 4s alternate ease-out;
   animation-iteration-count: 1;
-} */
+}
 
 @keyframes crescendo {
   0% {

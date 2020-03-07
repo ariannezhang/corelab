@@ -1,302 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Album Cover Draft</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
+    <title>Button Starter Code</title>
+    <style>
+      /* you can write styles for the button! Try your own */
+      body {
+        /* background-image: url(backgrounds/blindstar.gif); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+      }
+      /* button {
+        padding: 5px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        background-color: transparent;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: red;
+      } */
+      .container {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 100px;
+        left: 350px;
+      }
+      /* :nth-of-type(number) {
+  css declarations;
+} */
+    </style>
   </head>
-  <body>
-    <button onclick>Click me></button>
+  <body onClick="handleClick()" onkeypress="handleClick()">
+    <!-- <button onClick="handleClick()">Randomize</button> -->
 
-  <body>
-    <!-- <div class="container">
-      <div class="item">this item 1 will be manipulated and replaced</div>
-      <div class="item">this item 2 will be manipulated and replaced</div>
-      <div class="item">this item 3 will be manipulated and replaced</div>
-      <div class="item">this item 4 will be manipulated and replaced</div>
-      <div class="item">this item 5 will be manipulated and replaced</div>
-      <div class="item">this item 6 will be manipulated and replaced</div>
-      <div class="item">this item 7 will be manipulated and replaced</div>
-      <div class="item">this item 8 will be manipulated and replaced</div>
-      <div class="item">this item 9 will be manipulated and replaced</div>
-      <div class="item">this item 10 will be manipulated and replaced</div>
-      <div class="item">this item 11 will be manipulated and replaced</div>
-      <div class="item">this item 12 will be manipulated and replaced</div>
-      <div class="item">this item 13 will be manipulated and replaced</div>
-      <div class="item">this item 14 will be manipulated and replaced</div>
-      <div class="item">this item 15 will be manipulated and replaced</div>
-      <div class="item">this item 16 will be manipulated and replaced</div>
-      <div class="item">this item 17 will be manipulated and replaced</div>
-      <div class="item">this item 18 will be manipulated and replaced</div>
-      <div class="item">this item 19 will be manipulated and replaced</div>
-      <div class="item">this item 20 will be manipulated and replaced</div>
-      <div class="item">this item 21 will be manipulated and replaced</div>
-      <div class="item">this item 22 will be manipulated and replaced</div>
-      <div class="item">this item 23 will be manipulated and replaced</div>
-      <div class="item">this item 24 will be manipulated and replaced</div>
-      <div class="item">this item 25 will be manipulated and replaced</div>
-      <div class="item">this item 26 will be manipulated and replaced</div>
-      <div class="item">this item 27 will be manipulated and replaced</div>
-      <div class="item">this item 28 will be manipulated and replaced</div>
-      <div class="item">this item 29 will be manipulated and replaced</div>
-      <div class="item">this item 30 will be manipulated and replaced</div>
-      <div class="item">this item 31 will be manipulated and replaced</div>
-
-    </div> -->
     <div class="container">
-      <div class="item">
-        <img
-          src="albumcovers/image-1.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-2.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-3.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-4.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-5.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-6.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-7.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-8.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-9.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-10.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-11.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-12.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-13.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-14.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-15.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-16.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-17.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-18.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-19.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-20.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-21.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-22.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-23.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-24.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-25.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-26.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-27.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-28.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-29.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-30.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-      <div class="item">
-        <img
-          src="albumcovers/image-31.jpg"
-          alt="This will display an jpg"
-          style="width:300px;height:300px;"
-        />
-      </div>
-     
+      <!-- <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div> -->
     </div>
 
-    <!-- <form name ="imageForm">
-  <tr>
-    <tb>
-<input onclick="displayImage()"; type=button value="Display Random Image">
-</tb>
-</tr>
+    <!-- script tag at the end of the body -->
+    <script>
+      // var items = document.querySelectorAll(".container");
+      // items.forEach((item, i) => {
+      //   var randomGenerator = Math.round(Math.random() * 8);
+      //   item.innerHTML = `<img src="raveposters/${randomGenerator}.jpg" class="image"/>`;
+      //   console.log(Math.round(randomGenerator));
+      // });
+      //commenting this out because i moved it into the function for clicking right below this
 
-<tr>
-  <td> -->
-    <!-- <img src="blank.jpg" name="canvas">
-  </td>
-</tr>
-</form> -->
+      // you also can use math.ciel or math.floor
+      var container = document.querySelector(".container");
+      var ImageArray = [
+        {
+          imageURL: "albumcovers/image-1.jpg",
+          background: "backgrounds/childishgambino.gif",
+          soundhaha: "audio/whereami.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-2.jpg",
+          background: "backgrounds/bewhy.gif",
+          soundhaha: "audio/whereami.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-3.jpg",
+          background: "backgrounds/groovyroom.gif",
+          soundhaha: "audio/whereami.mp3"
+        }
+      ];
+      // document.querySelector("body").addEventListener("onclick", handleClick());
+      function handleClick() {
+        console.log("hi");
+        var randomGenerator = Math.floor(Math.random() * ImageArray.length);
 
-    <!-- <div class="one">
-      <img
-        src="albumcovers/blindstar.jpg"
-        alt="This will display an jpg"
-        style="width:500px;height:500px;"
-      />
-    </div> -->
-    <!-- </div class="song">
-    <audio controls>
-      <source src="audio/whereami.mp3" type="audio/mp3" />
-    </audio>
-  </div> -->
-    <!-- </div> -->
+        container.innerHTML = `<img src="${ImageArray[randomGenerator].imageURL}" class="image"/>
+        
+        `;
+        document.querySelector(
+          "body"
+        ).style.backgroundImage = `url(${ImageArray[randomGenerator].background})`;
+      }
 
-    <!-- <div class="writing">
-      BEWHY THE BLIND STAR
-    </div> -->
+      // function handleClick() {
+      // var items = document.querySelectorAll(".item");
+      // items.forEach((item, i) => {
+      //   var randomGenerator = Math.round(Math.random() * items.length);
+      //   item.innerHTML = `<img src="albumcovers/image-${randomGenerator}.jpg" class="image"/>`;
+      //   console.log(Math.round(randomGenerator));
+      // });
+
+      // console.log("this function runs every time you click the button");
+      // Take a look at index-comments.html and index-final.html to get ideas for how you can generate and manipulate content on the screen when this function runs
+      // what if we randomized the images on the screen every time we clicked the button? How would we have to change our in-class code?
+      // Try to do additional things inside here too. Learn how to use style in JavaScript to change colors, typography, etc.
+      // }
+    </script>
   </body>
 </html>

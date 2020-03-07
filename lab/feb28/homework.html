@@ -21,15 +21,16 @@
     </style>
   </head>
   <body>
+    <button onClick="handleClick()">Randomize</button>
     <div class="container">
-      <div class="item">this item 1 will be manipulated and replaced</div>
-      <div class="item">this item 2 will be manipulated and replaced</div>
-      <div class="item">this item 3 will be manipulated and replaced</div>
-      <div class="item">this item 4 will be manipulated and replaced</div>
-      <div class="item">this item 5 will be manipulated and replaced</div>
-      <div class="item">this item 6 will be manipulated and replaced</div>
-      <div class="item">this item 7 will be manipulated and replaced</div>
-      <div class="item">this item 8 will be manipulated and replaced</div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
     </div>
     <!-- <div class="container">
       <div class="item">
@@ -89,17 +90,26 @@
         />
       </div>
     </div> -->
-    <!-- <button onClick="handleClick()">Click me!</button> -->
 
     <!-- script tag at the end of the body -->
     <script>
-      var items = document.querySelectorAll(".container");
-      items.forEach((item, i) => {
-        var randomGenerator = Math.round(Math.random() * 8);
-        item.innerHTML = `<img src="raveposters/${randomGenerator}.jpg" class="image"/>`;
-      });
+      // var items = document.querySelectorAll(".container");
+      // items.forEach((item, i) => {
+      //   var randomGenerator = Math.round(Math.random() * 8);
+      //   item.innerHTML = `<img src="raveposters/${randomGenerator}.jpg" class="image"/>`;
+      //   console.log(Math.round(randomGenerator));
+      // });
+      //commenting this out because i moved it into the function for clicking right below this
+
+      // you also can use math.ciel or math.floor
       function handleClick() {
-        console.log("this function runs every time you click the button");
+        var items = document.querySelectorAll(".container");
+        items.forEach((item, i) => {
+          var randomGenerator = Math.round(Math.random() * 8);
+          item.innerHTML = `<img src="raveposters/${randomGenerator}.jpg" class="image"/>`;
+          console.log(Math.round(randomGenerator));
+        });
+        // console.log("this function runs every time you click the button");
         // Take a look at index-comments.html and index-final.html to get ideas for how you can generate and manipulate content on the screen when this function runs
         // what if we randomized the images on the screen every time we clicked the button? How would we have to change our in-class code?
         // Try to do additional things inside here too. Learn how to use style in JavaScript to change colors, typography, etc.
