@@ -22,14 +22,14 @@ body {
   /* transform-origin: center; */
 }
 
-.one {
+.albumcovers {
   position: absolute;
   left: 500px;
   top: 200px;
   margin: auto;
   transform-origin: center;
 }
-.one:hover {
+.albumcovers:hover {
   position: absolute;
   left: 500px;
   top: 200px;
@@ -38,6 +38,7 @@ body {
   animation: crescendo 4s alternate ease-out;
   animation-iteration-count: 1;
 }
+
 @keyframes crescendo {
   0% {
     transform: scale(1);

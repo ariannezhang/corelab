@@ -1,25 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Album Cover Draft</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <div class="one">
-      <img
-        src="albumcovers/blindstar.jpg"
-        alt="This will display an jpg"
-        style="width:500px;height:500px;"
-      />
-    </div>
-    </div class="song">
-    <audio controls>
-      <source src="audio/whereami.mp3" type="audio/mp3" />
-    </audio>
-  </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARCHIVE</title>
+    <style>
+      /* you can write styles for the button! Try your own */
+      body {
+        /* background-image: url(backgrounds/blindstar.gif); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+      }
+      /* button {
+        padding: 5px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        background-color: transparent;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: red;
+      } */
+      .container {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 100px;
+        left: 350px;
+      }
+      .album-cover {
+        position: absolute;
+        top: 400px;
+        left: 700px;
+        width: 800px;
+        height: 800px;
+        border: 5px solid black;
+        animation-duration: 2s;
+        animation-name: bounceIn;
+        animation-timing-function: ease-in-out;
+        /* animation-iteration-count: infinite; */
+      }
 
-    <!-- <div class="writing">
-      BEWHY THE BLIND STAR
-    </div> -->
+      @keyframes bounceIn {
+        0% {
+          transform: scale(0.1);
+          opacity: 0;
+        }
+        60% {
+          transform: scale(5);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      /* :nth-of-type(number) {
+  css declarations;
+} */
+    </style>
+  </head>
+  <body onClick="handleClick()" onkeypress="handleClick()">
+    <div class="container">
+      <!-- randomly insert content here -->
+    </div>
+
+    <!-- script tag at the end of the body -->
+    <script>
+      var container = document.querySelector(".container");
+      var ImageArray = [
+        {
+          imageURL: "albumcovers/image-1.jpg",
+          background: "backgrounds/cardibi.gif",
+          soundhaha: "audio/money.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-2.jpg",
+          background: "backgrounds/redbone.gif",
+          soundhaha: "audio/redbone.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-3.jpg",
+          background: "backgrounds/cjamm.gif",
+          soundhaha: "audio/cjammpokerface.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-4.jpg",
+          background: "backgrounds/bewhytwo.gif",
+          soundhaha: "audio/damngut.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-5.jpg",
+          background: "backgrounds/blindstar.gif",
+          soundhaha: "audio/whereami.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-6.jpg",
+          background: "backgrounds/tylerthecreator.gif",
+          soundhaha: "audio/whodatboy.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-7.jpg",
+          background: "backgrounds/drake.gif",
+          soundhaha: "audio/fromtime.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-8.jpg",
+          background: "backgrounds/gdragon.gif",
+          soundhaha: "audio/crooked.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-9.jpg",
+          background: "backgrounds/groovyroom.gif",
+          soundhaha: "audio/yosemite.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-10.jpg",
+          background: "backgrounds/topanga.gif",
+          soundhaha: "audio/takingawalk.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-11.jpg",
+          background: "backgrounds/dean.gif",
+          soundhaha: "audio/pourup.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-12.jpg",
+          background: "backgrounds/groovyroom.gif",
+          soundhaha: "audio/groovyroomtellme.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-13.jpg",
+          background: "backgrounds/ziont.gif",
+          soundhaha: "audio/complex.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-14.jpg",
+          background: "backgrounds/eureka.gif",
+          soundhaha: "audio/eureka.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-15.jpg",
+          background: "backgrounds/crush.gif",
+          soundhaha: "audio/crushchill.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-16.jpg",
+          background: "backgrounds/zico.gif",
+          soundhaha: "audio/zicofancychild.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-17.jpg",
+          background: "backgrounds/sokodomo.gif",
+          soundhaha: "audio/gohome.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-18.jpg",
+          background: "backgrounds/jcole.gif",
+          soundhaha: "audio/atm.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-19.jpg",
+          background: "backgrounds/seeme.gif",
+          soundhaha: "audio/seeme.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-20.jpg",
+          background: "backgrounds/couch.gif",
+          soundhaha: "audio/ittakestime.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-21.jpg",
+          background: "backgrounds/groovyroomtwo.gif",
+          soundhaha: "audio/dang.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-22.jpg",
+          background: "backgrounds/cube.gif",
+          soundhaha: "audio/cupid.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-23.jpg",
+          background: "backgrounds/apeshit.gif",
+          soundhaha: "audio/apeshit.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-24.jpg",
+          background: "backgrounds/youngthug.gif",
+          soundhaha: "audio/stoves.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-25.jpg",
+          background: "backgrounds/trippieredd.gif",
+          soundhaha: "audio/topanga.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-26.jpg",
+          background: "backgrounds/youngthugtwo.gif",
+          soundhaha: "audio/wyclefjean.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-27.jpg",
+          background: "backgrounds/hoody.gif",
+          soundhaha: "audio/hanghang.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-28.jpg",
+          background: "backgrounds/junoflo.gif",
+          soundhaha: "audio/autopilot.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-29.jpg",
+          background: "backgrounds/jcoletwo.gif",
+          soundhaha: "audio/finechina.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-30.jpg",
+          background: "backgrounds/richbrian.gif",
+          soundhaha: "audio/chaos.mp3"
+        },
+        {
+          imageURL: "albumcovers/image-31.jpg",
+          background: "backgrounds/higherbrothers.gif",
+          soundhaha: "audio/madeinchina.mp3"
+        }
+      ];
+
+      var body = document.querySelector("body"); // grab body once
+
+      function handleClick() {
+        var randomGenerator = Math.floor(Math.random() * ImageArray.length); // returns 0 - x
+        var randomItem = ImageArray[randomGenerator]; // access the random object in your ImageArray and save to variable. This makes for cleaner code when you use it in the innerHTML declaration below
+
+        // use properties in object of selected randomItem (imageURL, soundhaha, etc.)
+        // you can use the "albumcover" class in your css to style the image
+        container.innerHTML = `
+        <img src="${randomItem.imageURL}" class="album-cover"/>
+        <audio src="${randomItem.soundhaha}" autoplay></audio>
+        `;
+
+        body.style.backgroundImage = `url(${randomItem.background})`;
+      }
+      handleClick(); // run function when page loads initially so we don't have blank page before interaction.
+    </script>
   </body>
 </html>
