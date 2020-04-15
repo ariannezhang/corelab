@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World</title>
+    <title>TATTOO</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="stylee.css" />
   </head>
   <body>
@@ -45,20 +47,47 @@
         </ol>
       </div>
       <div class="div2">
-        TATTOO 101
+        TATTOOING <br />TIPS<br />
+        AND <br />TRICKS
       </div>
-      <div class="div3"></div>
-      <div class="div4"></div>
-      <div class="div5"></div>
-      <div class="div6"></div>
-      <div class="div7"></div>
-      <div class="div8"></div>
-      <div class="div9"></div>
-      <div class="div10"></div>
-      <div class="div11"></div>
-      <div class="div12"></div>
-      <div class="div13"></div>
     </div>
+    <!-- <div class="div2">
+      TATTOOING TIPS AND TRICKS
+    </div> -->
+    <div class="dropdown">
+      <button class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a href="https://www.youtube.com/watch?v=dw9CeJDnCro">Rotary Machine</a
+        ><br />
+        <a href="https://www.youtube.com/watch?v=Ne8TYzbhDYI">Needles</a><br />
+        <a href="https://www.youtube.com/watch?v=8Ifo8ZvYaxs"
+          >Lining Shading Coloring</a
+        ><br />
+        <a href="https://www.youtube.com/watch?v=i2_n-3EKpo4">Advanced</a>
+      </div>
+    </div>
+    <div class="butter"></div>
+
+    <div class="milk">
+      <p>TATTOOING TIPS AND TRICKS</p>
+      <a href="https://www.youtube.com/watch?v=dw9CeJDnCro">Rotary Machine</a
+      ><br />
+      <a href="https://www.youtube.com/watch?v=Ne8TYzbhDYI">Needles</a><br />
+      <a href="https://www.youtube.com/watch?v=8Ifo8ZvYaxs"
+        >Lining Shading Coloring</a
+      ><br />
+      <a href="https://www.youtube.com/watch?v=i2_n-3EKpo4">Advanced</a>
+    </div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+    <div class="div7"></div>
+    <div class="div8"></div>
+    <div class="div9"></div>
+    <div class="div10"></div>
+    <div class="div11"></div>
+    <div class="div12"></div>
+    <div class="div13"></div>
+
     <div class="row">
       <div class="column">
         <img src="chinese.png" alt="Snow" style="width: 100%;" />
@@ -88,5 +117,22 @@
         <img src="girl.png" alt="Forest" style="width: 100%;" />
       </div>
     </div>
+    <script>
+      console.log(window.innerWidth);
+      if (window.innerWidth >= 375 && window.innerWidth <= 667) {
+        console.log("hi");
+        var showing = false;
+        var butter = document.querySelector(".butter");
+        butter.addEventListener("click", () => {
+          if (showing) {
+            document.querySelector(".milk").classList.remove("appear");
+            showing = false;
+          } else {
+            document.querySelector(".milk").classList.add("appear");
+            showing = true;
+          }
+        });
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Helloooooooo
+  </body>
+</html>
+
+<script>
+  console.log(window);
+  //shows all events to call on in console
+
+  var breakPoint = 768;
+  if (window.innerWidth < breakPoint) {
+    console.log("small screen");
+  } else {
+    console.log("big screen");
+  }
+  //equivalent to css media query
+
+  function smallCode() {
+    //do something small
+  }
+  function bigCode() {
+    //do something big
+  }
+
+  //starting from scratch now
+  var breakPoint = 768;
+
+  var boxes = document.querySelectorAll(".box");
+  //selecting all classes named box
+
+  if (window.innerWidth < breakPoint) {
+    window.addEventListener("scroll", () => {
+      console.log("scrolling");
+      boxes.forEach((box) => {
+        //   box.style.opacity = 0.2;
+        //   box.style
+        //lower opacity whem scrolling
+
+        box.classList.add("appear");
+        //adding class named appear in css
+      });
+    });
+  }
+</script>

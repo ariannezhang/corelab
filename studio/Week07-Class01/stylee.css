@@ -1,15 +1,27 @@
 .div1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-caps: all-small-caps;
+  display: flex;
+  align-items: flex-start;
+  width: 400px;
+  font-size: 20px;
+}
+.div1:hover {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-variant-caps: all-small-caps;
   display: flex;
-  align-items: flex-end;
-  width: 900px;
+  align-items: flex-start;
+  width: 400px;
   font-size: 20px;
 }
 
 body {
   background-color: black;
+  background-image: url(red.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   display: flex;
@@ -17,21 +29,243 @@ body {
   height: 100vh;
 }
 .div2 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  /* display: flex;
+  align-items: flex-end; */
+  /* justify-content: center; */
+  color: black;
+  font-family: arial;
   font-variant-caps: all-small-caps;
-  font-size: 100px;
-  /* font-style: italic; */
+  font-size: 20px;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  border: 3px dashed;
+  padding: 20px;
+  /* border-radius: 50%; */
+}
+.div2:hover {
+  /* display: flex;
+  align-items: flex-end; */
+  /* justify-content: center; */
+  color: white;
+  font-family: arial;
+  font-variant-caps: all-small-caps;
+  font-size: 20px;
+  right: 100px;
+  bottom: 100px;
+  border: 3px dashed;
+  padding: 20px;
+  /* border-radius: 50%; */
+
+  /* display: none; */
 }
 .row {
   display: flex;
+  display: none;
 }
 
 .column {
-  flex: 33.33%;
+  /* flex: 33.33%; */
   padding: 5px;
   align-items: center;
+  display: none;
+}
+.butter {
+  display: none;
+}
+.milk {
+  display: none;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f5faf6;
+  color: rgb(7, 7, 7);
+  padding: 50px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+
+  z-index: 5;
+  right: 200px;
+  top: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(180, 28, 28);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(248, 246, 246);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #f50a0a;
+}
+
+/* portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .div1 {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-variant-caps: all-small-caps;
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    font-size: 20px;
+    visibility: hidden;
+    display: none;
+  }
+
+  body {
+    background-color: black;
+    background-image: none;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* visibility: hidden;
+    display: none; */
+  }
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+  }
+  .div2 {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    color: white;
+    font-family: arial;
+    font-variant-caps: all-small-caps;
+    font-size: 100px;
+    /* font-style: italic; */
+    visibility: hidden;
+    display: none;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    /* flex: 33.33%; */
+    width: 100%;
+    display: block;
+    padding-right: 50%;
+    align-items: center;
+  }
+  .milk {
+    width: 280px;
+    height: 100vh;
+    display: block;
+    background-color: black;
+    padding-top: 200px;
+    padding-left: 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    transform: translateX(100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+  }
+  .appear {
+    transform: translateX(0%);
+    /* opacity: 80%; */
+    transition: ease-in-out 1s all;
+  }
+
+  .butter {
+    width: 100px;
+    height: 100px;
+    /* background-color: white; */
+    background-image: url(finger.png);
+    background-size: cover;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    display: block;
+    z-index: 7;
+
+    border-radius: 50%;
+  }
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #f5faf6;
+    color: rgb(7, 7, 7);
+    padding: 100px;
+    font-size: 16px;
+    border: none;
+    width: 5px;
+    height: 5px;
+    display: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+
+    z-index: 5;
+    right: 10px;
+    display: none;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(180, 28, 28);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(248, 246, 246);
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #f50a0a;
+  }
 }
