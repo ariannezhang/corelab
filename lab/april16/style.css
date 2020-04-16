@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(211, 212, 212);
+  padding: 100px;
+}
+.container {
+  background-image: url(thankyou.jpg);
+  color: black;
+  background-position: top;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+main {
+  display: inline-flex;
+}
+.box {
+  flex-direction: row;
+  background-color: rgb(20, 220, 170);
+  width: 10px;
+  height: 10px;
+  border: rgb(211, 212, 212) 5px solid;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-color: none;
+    background-image: url(thankyou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: none;
+  }
+  .container {
+    background-image: url(thankyou.jpg);
+    color: black;
+    background-position: top;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    display: none;
+  }
+  main {
+    display: inline-flex;
+    display: none;
+  }
+  .box {
+    flex-direction: row;
+    background-color: rgb(20, 220, 170);
+    width: 10px;
+    height: 10px;
+    border: rgb(211, 212, 212) 5px solid;
+    display: none;
+  }
+  nav {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-device-width: 668px) and (max-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-color: none;
+    padding: 20px;
+  }
+  .container {
+    background-image: none;
+    color: white;
+    background-position: top;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    width: 150px;
+    height: 100vh;
+  }
+  main {
+    display: inline-flex;
+    display: none;
+  }
+  .box {
+    flex-direction: row;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border: rgb(211, 212, 212) 5px solid;
+    display: none;
+  }
+  nav {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-device-width: 1026px) and (max-device-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-color: rgb(211, 212, 212);
+    background-image: url(thankyou.jpg);
+    background-size: contain;
+    padding: none;
+  }
+  .container {
+    background-image: none;
+    width: 300px;
+    /* height: 500px; */
+    color: black;
+    background-position: top;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+  }
+  main {
+    display: inline-flex;
+    display: none;
+  }
+  .box {
+    flex-direction: row;
+    background-color: rgb(20, 220, 170);
+    width: 10px;
+    height: 10px;
+    border: rgb(211, 212, 212) 5px solid;
+    display: none;
+  }
+  nav {
+    font-size: 20px;
+  }
+}
