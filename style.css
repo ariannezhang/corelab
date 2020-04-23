@@ -399,6 +399,7 @@ body {
   position: absolute;
   left: 400px;
   top: 850px;
+  z-index: 5;
 }
 
 .spiral {

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(211, 212, 212);
+  background-color: black;
   padding: 100px;
 }
 .container {
@@ -19,6 +19,18 @@ main {
   width: 10px;
   height: 10px;
   border: rgb(211, 212, 212) 5px solid;
+}
+.one {
+  width: 100px;
+  display: block;
+}
+.two {
+  width: 300px;
+  display: block;
+}
+.three {
+  width: 600px;
+  display: block;
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   body {
@@ -52,6 +64,18 @@ main {
   nav {
     font-size: 50px;
   }
+  .one {
+    width: 100px;
+    display: block;
+  }
+  .two {
+    width: 300px;
+    display: none;
+  }
+  .three {
+    width: 600px;
+    display: none;
+  }
 }
 @media only screen and (min-device-width: 668px) and (max-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   body {
@@ -82,6 +106,18 @@ main {
   }
   nav {
     font-size: 20px;
+  }
+  .one {
+    width: 100px;
+    display: none;
+  }
+  .two {
+    width: 300px;
+    display: block;
+  }
+  .three {
+    width: 600px;
+    display: none;
   }
 }
 @media only screen and (min-device-width: 1026px) and (max-device-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -115,5 +151,17 @@ main {
   }
   nav {
     font-size: 20px;
+  }
+  .one {
+    width: 100px;
+    display: none;
+  }
+  .two {
+    width: 300px;
+    display: none;
+  }
+  .three {
+    width: 600px;
+    display: block;
   }
 }
