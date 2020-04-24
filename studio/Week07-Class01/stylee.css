@@ -1,5 +1,8 @@
 body {
   background-color: black;
+  background-image: url(minelol.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   /* border: 3px greenyellow dashed; */
 }
 .backgroundla {
@@ -15,10 +18,43 @@ body {
   position: absolute;
 }
 .div1 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
+  line-height: 40px;
+  /* text-transform: lowercase; */
 }
 .div1:hover {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
+  line-height: 40px;
+  /* text-transform: lowercase; */
+}
+.div2 {
+  /* display: flex;
+  align-items: flex-end; */
+  /* justify-content: center; */
+  color: black;
+  font-family: "Rock Salt", cursive;
+  /* text-transform: lowercase; */
+  line-height: 50px;
+  /* font-variant-caps: all-small-caps; */
+  font-size: 50px;
+  position: absolute;
+  right: 100px;
+  bottom: 10px;
+  text-align: center;
+}
+.div2:hover {
+  /* display: flex;
+  align-items: flex-end; */
+  /* justify-content: center; */
+  color: rgb(170, 44, 12);
+  font-family: "Rock Salt", cursive;
+  /* text-transform: lowercase; */
+  line-height: 50px;
+  /* font-variant-caps: all-small-caps; */
+  font-size: 50px;
+  right: 100px;
+  bottom: 10px;
+  text-align: center;
 }
 .they {
   position: absolute;
@@ -158,31 +194,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.div2 {
-  /* display: flex;
-  align-items: flex-end; */
-  /* justify-content: center; */
-  color: black;
-  font-family: "Permanent Marker", cursive;
-  /* font-variant-caps: all-small-caps; */
-  font-size: 50px;
-  position: absolute;
-  right: 100px;
-  bottom: 10px;
-  text-align: center;
-}
-.div2:hover {
-  /* display: flex;
-  align-items: flex-end; */
-  /* justify-content: center; */
-  color: white;
-  font-family: "Permanent Marker", cursive;
-  /* font-variant-caps: all-small-caps; */
-  font-size: 50px;
-  right: 100px;
-  bottom: 10px;
-  text-align: center;
-}
+
 .row {
   display: flex;
   display: none;
@@ -226,7 +238,7 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 5;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 /* Links inside the dropdown */
@@ -235,34 +247,99 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: rgb(248, 246, 246);
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #f50a0a;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
-.div5 {
+/* .div5 {
   width: 100px;
   height: 100px;
   position: absolute;
   left: 400px;
   top: 300px;
   display: block;
+} */
+.crown {
+  display: block;
+  background-image: url(crown.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  left: 400px;
+  top: 10px;
+  position: absolute;
+  display: none;
+}
+.skull {
+  position: absolute;
+  left: 300px;
+  top: 60px;
+  display: none;
+}
+.pen {
+  position: absolute;
+  left: 500px;
+  top: 340px;
+  display: none;
+}
+.needless {
+  position: absolute;
+  left: 100px;
+  top: 160px;
+  display: none;
+}
+.advanced {
+  position: absolute;
+  left: 800px;
+  top: 110px;
+  display: none;
+}
+.lining {
+  position: absolute;
+  left: 50px;
+  top: 230px;
+  display: none;
+}
+.trippie {
+  position: absolute;
+  right: 2px;
+  top: 10px;
+  z-index: 5;
+  display: none;
+}
+.tyler {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  z-index: 5;
+  display: none;
+}
+.music {
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  display: none;
+}
+.crown {
+  display: none;
 }
 
 /* portrait */
@@ -329,7 +406,7 @@ body {
     right: 0px;
     transform: translateX(100%);
     color: white;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Rock Salt", cursive;
 
     font-size: 20px;
   }
@@ -406,28 +483,203 @@ body {
   .dropdown:hover .dropbtn {
     background-color: #f50a0a;
   }
+  .crown {
+    display: block;
+    background-image: url(crown.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 400px;
+    top: 10px;
+    position: absolute;
+    display: none;
+  }
+  .skull {
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    display: none;
+  }
+  .pen {
+    position: absolute;
+    left: 500px;
+    top: 340px;
+    display: none;
+  }
+  .needless {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    display: none;
+  }
+  .advanced {
+    position: absolute;
+    left: 800px;
+    top: 110px;
+    display: none;
+  }
+  .lining {
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    display: none;
+  }
+  .trippie {
+    position: absolute;
+    right: 2px;
+    top: 10px;
+    z-index: 5;
+    display: none;
+  }
+  .tyler {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    z-index: 5;
+    display: none;
+  }
+  .joji {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    display: none;
+  }
 }
 
-.div5 {
-  background-image: url(dna.gif);
-  background-size: cover;
-  width: 300px;
-  height: 500px;
-  position: absolute;
-  left: 400px;
-  top: 300px;
-  display: none;
-}
-@media only screen and (min-device-width: 3830px) and (max-device-width: 2170px) {
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1500px) and (orientation: landscape) {
   body {
-    background-color: white;
+    /* background-color: white; */
+    background-color: black;
+    /* background-image: url(woah.png); */
+    background-image: url(reaper.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     /* border: 3px greenyellow dashed; */
   }
   .container {
     display: none;
+    /* width: 100vw;
+    height: 100vh; */
+  }
+  .projectorcontainer {
+    background-image: url(white.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
   }
   .backgroundla {
     display: none;
     background-image: none;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .dropdown {
+    display: none;
+  }
+  .row {
+    display: none;
+  }
+  .crown {
+    display: block;
+    background-image: url(crown.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 700px;
+    left: 400px;
+    top: 10px;
+    position: absolute;
+    z-index: 7;
+  }
+  .skull {
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    display: block;
+    opacity: 50%;
+  }
+  .pen {
+    position: fixed;
+    left: 500px;
+    top: 340px;
+    display: block;
+    font-size: 50px;
+  }
+  .needless {
+    position: fixed;
+    left: 100px;
+    top: 160px;
+    display: block;
+    font-size: 50px;
+  }
+  .advanced {
+    position: fixed;
+    left: 800px;
+    top: 110px;
+    display: block;
+    font-size: 50px;
+  }
+  .lining {
+    position: fixed;
+    left: 50px;
+    top: 230px;
+    display: block;
+    font-size: 50px;
+  }
+  .trippie {
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    z-index: 5;
+    display: block;
+  }
+  .tyler {
+    position: fixed;
+    left: 400px;
+    top: 50px;
+    z-index: 5;
+    display: block;
+  }
+  .joji {
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    display: block;
+  }
+  .jojitwo {
+    position: fixed;
+    top: 700px;
+    left: 300px;
+    display: block;
+  }
+  .scream {
+    opacity: 70%;
+  }
+  .painting {
+    display: block;
+    background-image: url(woah.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 700px;
+    left: 100px;
+    top: 600px;
+    position: absolute;
+    z-index: 7;
+  }
+  .still {
+    /* background-image: url(still.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    width: 1920px;
+    height: 1920px;
+    left: 0px;
+    top: 400px;
+    z-index: 8;
+    position: fixed;
   }
 }
