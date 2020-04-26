@@ -652,7 +652,7 @@ body {
   }
   .jojitwo {
     position: fixed;
-    top: 700px;
+    top: 800px;
     left: 300px;
     display: block;
   }
@@ -664,12 +664,13 @@ body {
     background-image: url(woah.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 700px;
-    left: 100px;
+    opacity: 50%;
+    width: 800px;
+    height: 1000px;
+    left: 250px;
     top: 600px;
     position: absolute;
-    z-index: 7;
+    z-index: -3;
   }
   .still {
     /* background-image: url(still.png);
@@ -679,7 +680,44 @@ body {
     height: 1920px;
     left: 0px;
     top: 400px;
-    z-index: 8;
+    /* z-index: 8; */
     position: fixed;
+  }
+  .arm {
+    position: fixed;
+    top: 650px;
+    left: 250px;
+    display: block;
+  }
+  .cartoon {
+    position: fixed;
+    top: 450px;
+    left: 50px;
+    display: block;
+  }
+  .writing {
+    font-family: "Rock Salt", cursive;
+    color: red;
+    font-size: 100px;
+    width: 500px;
+    position: fixed;
+    left: 20px;
+    top: 500px;
+    line-height: 60px;
+  }
+  .writingtwo {
+    font-family: "Rock Salt", cursive;
+    color: red;
+    font-size: 60px;
+    width: 600px;
+    position: fixed;
+    right: 20px;
+    top: 500px;
+    line-height: 40px;
+  }
+  .gloves {
+    position: fixed;
+    left: 200px;
+    top: 300px;
   }
 }
