@@ -107,7 +107,7 @@
      
     </div>
     
-  </div></div>
+
 
     <div class="row">
       <div class="column">
@@ -179,14 +179,15 @@
               ANYMORE. THEN CONTINUE THE PROCESS WITH LOTION FOR THE REMAINDER OF
               THE 4 WEEKS.</div>
               <div class="gloves"><iframe width="560" height="315" src="https://www.youtube.com/embed/kafl0EIKag8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="audio controls">
+            <div class="song">
+              <audio controls>
               
              
               <source src="newgate.mp3" type="audio/mpeg">
        
             </audio></div>
             <div class="still">
-              <img src="still.png" alt="Forest"  />
+              <img src="still.png" alt="Forest" width="100%" />
             </div>
           </div>
 
@@ -206,6 +207,16 @@
           }
         });
       }
+      setTimeout(()=> {
+        //to make it specific to projectorsizse do conditional statement with window.innerWidth greater than 1900 no need for height or else statement
+document.querySelector('audio').play();
+
+// selecting child from parent div
+
+
+      },5000)
+      // 500 milisecond delay
+      // works if user interacts with it maybe works if not in inspect responsive mode so just click a lot while loading
     </script>
   </body>
 </html>
