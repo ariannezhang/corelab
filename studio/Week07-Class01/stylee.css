@@ -723,6 +723,7 @@ body {
   .song {
     z-index: 9;
     position: fixed;
-    left: 900px;
+    left: 1000px;
+    top: 800px;
   }
 }
